@@ -194,8 +194,3 @@ CREATE TABLE productSupplier (
     CONSTRAINT fk_productSupplier_product FOREIGN KEY (idPSproduct) REFERENCES product(idProduct),
     CONSTRAINT fk_productSupplier_supplier FOREIGN KEY (idPSsupplier) REFERENCES supplier(idSupplier)
 );
-
-
-
-SHOW TABLES;
-SHOW DATABASES;
